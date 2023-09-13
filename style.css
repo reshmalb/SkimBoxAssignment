@@ -55,7 +55,7 @@
     border: none;
     background-color: transparent;
     padding: 20p 20px;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
 }
 .individual-container{
@@ -444,7 +444,4 @@
             cursor: pointer;
         }
     
-}
-@media (min-width:768px)and (max-width: 1024px) {
-    
-}
+    }
