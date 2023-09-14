@@ -1,449 +1,427 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-
-.header-container{
-    width:100vw;
-    height:4rem;
-    margin:0;
-    padding:0;
-    /* background-color:yellow ; */
-    display: flex;
-    flex-direction: row;
+.header-container {
+  width: 100vw;
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+  /* background-color:yellow ; */
+  display: flex;
+  flex-direction: row;
 }
-.logo{
-    padding: 20px 20px;
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    font-weight: 600;
-    font-style: italic;
-
+.logo {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
 }
-.nav-container{
-    margin-left: 50rem;
-    
+.nav-container {
+  margin-left: 50rem;
 }
 
-.ul-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-a;
-    list-style: none;
-    padding: 20px 20px;
+.ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-a;
+  list-style: none;
+  padding: 20px 20px;
+}
+.list-items {
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+.button-container {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  padding: 20p 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.individual-container {
+  width: 500px;
+  height: 100%;
+  background-color: transparent;
+  border: 1px solid rgb(238, 234, 234);
+  justify-content: center;
+  align-items: center;
+  padding: 10px 200px;
+  cursor: pointer;
+}
+.individual-container:hover {
+  transform: scale(1);
+  border: none;
+  background-color: lightgreen;
+}
+.description-container {
+  height: 500px;
+  width: 400px;
+  background-color: transparent;
+  justify-content: center;
+  margin-left: 30%;
+  margin-top: 20px;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+}
+.amount-details {
+  padding: 50px 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-style: bold;
+  font-weight: 200;
+}
+#amount {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-style: bold;
+  font-weight: 700;
+}
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-style: bold;
+  margin-left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: lightcyan;
+  border: none;
+  border-top: 2px solid darkcyan;
+  border-bottom: 2px solid darkcyan;
+  display: flex;
+  flex-direction: row;
+}
+.benefits-container {
+  margin-top: 30px;
+}
+.benefits-heading {
+  font-style: bold;
+  font-weight: 600;
+}
+.ul-benefits {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.benefits-listitem {
+  margin-bottom: 8px;
+}
+.subscription-button {
+  margin-top: 20px;
 
+  width: 80%;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  margin-left: 50px;
+  cursor: pointer;
 }
-.list-items{
-    margin-left: 1rem;
-    margin-top: .2rem;
-}
-.button-container{
-    margin: 0;
-    padding:0;
-    background-color: transparent;
-    height:50px;
-    width:100%;
-    display:  flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.button{
-    border: none;
-    background-color: transparent;
-    padding: 20p 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-.individual-container{
-    width:500px;
-    height: 100%;
-    background-color: transparent;
-    border: 1px solid rgb(238, 234, 234);
-    justify-content: center;
-    align-items: center;
-    padding: 10px 200px;
-    cursor: pointer;
-
-}
-.individual-container:hover{
-    transform: scale(1);
-    border:none;
-    background-color: lightgreen;
-}
-.description-container{
-    height:500px;
-    width:400px;
-    background-color: transparent;
-    justify-content: center;
-    margin-left: 30%;
-    margin-top: 20px;
-    border: .5px solid grey;
-    border-radius: 10px;
-
-}
-.amount-details{
-    padding:50px 150px;
-    display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        font-style: bold;
-        font-weight: 200;
-}
-#amount{
-    margin-left: 1rem;
-    font-size: 2rem;
-    font-style: bold;
-    font-weight: 700;
-}
-.subscription-container{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    font-style: bold;
-    margin-left: 0;
-    height: 50px;
-    width: 100%;
-    background-color: lightcyan;
-     border: none;
-    border-top: 2px solid darkcyan;
-    border-bottom: 2px solid darkcyan;
-    display: flex;
-    flex-direction: row;
-
-}
-.benefits-container{
-    margin-top: 30px;
-    
-
-}
-.benefits-heading{
-    font-style: bold;
-    font-weight: 600;
-}
-.ul-benefits{
-    list-style: none;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-.benefits-listitem{
-     margin-bottom: 8px;
-}
-.subscription-button{
-    margin-top: 20px;
-
-    width:80%;
-    height:40px;
-    border-radius: 12px;
-    border: none;
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    margin-left: 50px;
-    cursor: pointer;
-  
-
-}
-.subscription-button:hover{
-    transform: scale(1.1);
-    background-color: darkgrey;
+.subscription-button:hover {
+  transform: scale(1.1);
+  background-color: darkgrey;
 }
 
 /* for mobile devices */
 
 @media screen and (max-width: 480px) {
-    .header-container  {
-        width:100vw;
-        height:2rem;
-        margin:0;
-        padding:0;
-        /* background-color:yellow ; */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .logo{
-        padding-top: .5rem;
-        
-        margin-left: 0;
-        padding-left: 0;
-        display: flex;
-        flex-direction: row;
-        font-size: 16px;
-        font-weight: 400;
-        font-style: italic;
-        height: 100%;
-        width: 50px;
-    
-    }
-    .logo-icon{
-        padding-left: 0;
-        margin-left: 0;
-    }
-    .logo-name{
-        margin-left: .5rem;
-    }
-    .nav-container{
-        margin-top: -2rem;
-        margin-left: .2rem;
-    }
-    .ul-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
-        font-size: 8px;
-        margin-left: 3px;
-        margin-top: .2rem;
-    
-    }
-    .button-container{
-        margin-top:10px;
-        padding:0;
-        background-color: transparent;
-        height:20px;
-        width: 100%;
-        display:  flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .individual-container{
-        width:190px;
-        height: 100%;
-        background-color: transparent;
-        border: 1px solid rgb(238, 234, 234);
-        justify-content: center;
-        align-items: center;
-        padding:.2rem 1.5rem;
-        cursor: pointer;
-        font-size: 10px;
-    
-    }
-    .button{
-        border: none;
-        background-color: transparent;
-        padding: 0;
-        padding: auto;
-        font-size: .5rem;
-        cursor: pointer;
-    }
-    .description-container{
-        height:500px;
-        width:60%;
-        background-color: transparent;
-        justify-content: center;
-        margin-top: 2rem;
-        margin:2rem 2rem;
-        border: .5px solid grey;
-        border-radius: 10px;
-    
-    }
-    .amount-details{
-        padding:5%;
-        justify-content: center;
-        align-items: center;
-        font-size:1rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        font-style: bold;
-        font-weight: 200;
-    }
-    #amount{
-        margin-left: .5rem;
-        font-style: bold;
-        font-weight: 700;
-    }
-    .subscription-container{
-        display: flex;
-        flex-direction: column;
-        font-size: .5rem;
-        overflow: hidden;
-        padding-top: .5rem;
-        padding-left: 1rem;
-        margin-top: 1rem;
-        font-style: bold;
-        margin-left: 0;
-        height: 30px;
-        width: 100%;
-        background-color: lightcyan;
-         border: none;
-        border-top: 2px solid darkcyan;
-        border-bottom: 2px solid darkcyan;
-    
-    }
-    .benefits-container{
-        font-style: bold;
-        font-weight: 600;
-        font-size: .7rem;
-    }
-        .ul-benefits {
-            list-style: none;
-            margin-top: 10px;
-            margin-left: 1rem;
-            font-size: .5rem;
-        }
-        
-        .subscription-button {
-            width: 80%;
-            height: 25px;
-            border-radius: 12px;
-            border: none;
-            background-color: black;
-            color: white;
-            margin-top: 50px;
-            font-size: 1rem;
-            margin-left: 10%;
-            cursor: pointer;
-        }
+  .header-container {
+    width: 100vw;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    /* background-color:yellow ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo {
+    padding-top: 0.5rem;
+
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    height: 100%;
+    width: 50px;
+  }
+  .logo-icon {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .logo-name {
+    margin-left: 0.5rem;
+  }
+  .nav-container {
+    margin-top: -2rem;
+    margin-left: 0.2rem;
+  }
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 8px;
+    margin-left: 3px;
+    margin-top: 0.2rem;
+  }
+  .button-container {
+    margin-top: 10px;
+    padding: 0;
+    background-color: transparent;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .individual-container {
+    width: 190px;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(238, 234, 234);
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 1.5rem;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    padding: auto;
+    font-size: 0.5rem;
+    cursor: pointer;
+  }
+  .description-container {
+    height: 500px;
+    width: 60%;
+    background-color: transparent;
+    justify-content: center;
+    margin-top: 2rem;
+    margin: 2rem 2rem;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+  }
+  .amount-details {
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+    font-weight: 200;
+  }
+  #amount {
+    margin-left: 0.5rem;
+    font-style: bold;
+    font-weight: 700;
+  }
+  .subscription-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5rem;
+    overflow: hidden;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    font-style: bold;
+    margin-left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: lightcyan;
+    border: none;
+    border-top: 2px solid darkcyan;
+    border-bottom: 2px solid darkcyan;
+  }
+  .benefits-container {
+    font-style: bold;
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  .ul-benefits {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 1rem;
+    font-size: 0.5rem;
+  }
+
+  .subscription-button {
+    width: 80%;
+    height: 25px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    font-size: 1rem;
+    margin-left: 10%;
+    cursor: pointer;
+  }
 }
 
 /* for tab */
 
-@media screen and  (min-width:481px) and(max-width: 767px) {
-    .header-container  {
-        width:100vw;
-        height:2rem;
-        margin:0;
-        padding:0;
-        /* background-color:yellow ; */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .logo{
-        padding-top: .5rem;
-        
-        margin-left: 0;
-        padding-left: 0;
-        display: flex;
-        flex-direction: row;
-        font-size: 16px;
-        font-weight: 400;
-        font-style: italic;
-        height: 100%;
-        width: 50px;
-    
-    }
-    .logo-icon{
-        padding-left: 0;
-        margin-left: 0;
-    }
-    .logo-name{
-        margin-left: .5rem;
-    }
-    .nav-container{
-        margin-top: -2rem;
-        margin-left: .2rem;
-    }
-    .ul-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
-        font-size: 8px;
-        margin-left: 3px;
-        margin-top: .2rem;
-    
-    }
-    .button-container{
-        margin-top:10px;
-        padding:0;
-        background-color: transparent;
-        height:30px;
-        width: 100%;
-        display:  flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .individual-container{
-        width:250px;
-        height: 100%;
-        background-color: transparent;
-        border: 1px solid rgb(238, 234, 234);
-        justify-content: center;
-        align-items: center;
-        padding:.2rem 1.5rem;
-        cursor: pointer;
-        font-size: 10px;
-    
-    }
-    .button{
-        border: none;
-        background-color: transparent;
-        padding: 0;
-        padding: auto;
-        font-size: .5rem;
-        cursor: pointer;
-    }
-    .description-container{
-        height:500px;
-        width:51%;
-        background-color: transparent;
-        justify-content: center;
-        margin-top: 2rem;
-        margin:2rem 2rem;
-        border: .5px solid grey;
-        border-radius: 10px;
-    
-    }
-    .amount-details{
-        padding:5%;
-        justify-content: center;
-        align-items: center;
-        font-size: 5%;
-        display:flex;
-    }
-    #amount{
-        margin-left: .5rem;
-        font-style: bold;
-        font-weight: 700;
-    }
-    .subscription-container{
-        display: flex;
-        flex-direction: column;
-        font-size: 12px;
-        padding-top: .5rem;
-        padding-left: 1rem;
-        margin-top: 1rem;
-        font-style: bold;
-        margin-left: 0;
-        height: 30px;
-        width: 100%;
-        background-color: lightcyan;
-         border: none;
-        border-top: 2px solid darkcyan;
-        border-bottom: 2px solid darkcyan;
-    
-    }
-    .benefits-container{
-        font-style: bold;
-        font-weight: 600;
-        font-size: .7rem;
-    }
-        .ul-benefits {
-            list-style: none;
-            margin-top: 10px;
-            margin-left: 1rem;
-            font-size: .5rem;
-        }
-        
-        .subscription-button {
-            width: 80%;
-            height: 25px;
-            border-radius: 12px;
-            border: none;
-            background-color: black;
-            color: white;
-            margin-top: 50px;
-            font-size: 1rem;
-            margin-left: 10%;
-            cursor: pointer;
-        }
-    
-    }
+@media screen and (min-width: 481px) and(max-width: 767px) {
+  .header-container {
+    width: 100vw;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    /* background-color:yellow ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo {
+    padding-top: 0.5rem;
+
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    height: 100%;
+    width: 50px;
+  }
+  .logo-icon {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .logo-name {
+    margin-left: 0.5rem;
+  }
+  .nav-container {
+    margin-top: -2rem;
+    margin-left: 0.2rem;
+  }
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 8px;
+    margin-left: 3px;
+    margin-top: 0.2rem;
+  }
+  .button-container {
+    margin-top: 10px;
+    padding: 0;
+    background-color: transparent;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .individual-container {
+    width: 250px;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(238, 234, 234);
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 1.5rem;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    padding: auto;
+    font-size: 0.5rem;
+    cursor: pointer;
+  }
+  .description-container {
+    height: 500px;
+    width: 51%;
+    background-color: transparent;
+    justify-content: center;
+    margin-top: 2rem;
+    margin: 2rem 2rem;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+  }
+  .amount-details {
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 5%;
+    display: flex;
+  }
+  #amount {
+    margin-left: 0.5rem;
+    font-style: bold;
+    font-weight: 700;
+  }
+  .subscription-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    font-style: bold;
+    margin-left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: lightcyan;
+    border: none;
+    border-top: 2px solid darkcyan;
+    border-bottom: 2px solid darkcyan;
+  }
+  .benefits-container {
+    font-style: bold;
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  .ul-benefits {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 1rem;
+    font-size: 0.5rem;
+  }
+
+  .subscription-button {
+    width: 80%;
+    height: 25px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    font-size: 1rem;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+}
