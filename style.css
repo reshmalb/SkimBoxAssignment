@@ -188,7 +188,8 @@
         margin-left: .5rem;
     }
     .nav-container{
-        margin-top: .5rem;
+        margin-top: -2rem;
+        margin-left: .2rem;
     }
     .ul-container{
         display: flex;
@@ -232,7 +233,7 @@
     }
     .description-container{
         height:500px;
-        width:51%;
+        width:60%;
         background-color: transparent;
         justify-content: center;
         margin-top: 2rem;
@@ -337,7 +338,8 @@
         margin-left: .5rem;
     }
     .nav-container{
-        margin-top: .5rem;
+        margin-top: -2rem;
+        margin-left: .2rem;
     }
     .ul-container{
         display: flex;
